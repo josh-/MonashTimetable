@@ -1,0 +1,6 @@
+framework module ScheduleKit {
+  umbrella header "ScheduleKit.h"
+
+  export *
+  module * { export * }
+}

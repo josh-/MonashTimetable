@@ -6,14 +6,13 @@
 //  Copyright (c) 2015 Josh Parnham. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+@import Cocoa;
+
+#import "CCNStatusItem.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
-@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
-@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
-@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
-
+@property (strong, nonatomic) CCNStatusItem *statusItem;
 
 @end
 

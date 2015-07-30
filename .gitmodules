@@ -1,0 +1,10 @@
+[submodule "MonashTimetable/SSKeychain"]
+	path = MonashTimetable/SSKeychain
+	url = https://github.com/soffes/sskeychain.git
+    ignore = dirty
+[submodule "CCNStatusItem"]
+	path = MonashTimetable/CCNStatusItem/
+	url = https://github.com/phranck/CCNStatusItem.git
+[submodule "MonashTimetable/MXLCalendarManager"]
+	path = MonashTimetable/MXLCalendarManager
+	url = https://github.com/josh-/MXLCalendarManager.git

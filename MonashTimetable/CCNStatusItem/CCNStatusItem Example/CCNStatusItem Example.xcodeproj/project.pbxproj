@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1782392C1AFBCEEB00D41AB3 /* CCNStatusItemDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1782392B1AFBCEEB00D41AB3 /* CCNStatusItemDropView.m */; };
+		6800FB481AEB486700942B4E /* ContentView2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 6800FB461AEB486700942B4E /* ContentView2Controller.m */; };
+		6800FB491AEB486700942B4E /* ContentView2Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6800FB471AEB486700942B4E /* ContentView2Controller.xib */; };
+		FD2CF54C1AE2E60A006F3D46 /* CCNStatusItemWindowConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2CF54B1AE2E60A006F3D46 /* CCNStatusItemWindowConfiguration.m */; };
+		FD9AC0331A4F728600129381 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9AC0321A4F728600129381 /* AppDelegate.m */; };
+		FD9AC0351A4F728600129381 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9AC0341A4F728600129381 /* main.m */; };
+		FD9AC0371A4F728600129381 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD9AC0361A4F728600129381 /* Images.xcassets */; };
+		FD9AC03A1A4F728600129381 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD9AC0381A4F728600129381 /* MainMenu.xib */; };
+		FD9AC0621A4F74BC00129381 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9AC0601A4F74BC00129381 /* ContentViewController.m */; };
+		FD9AC0631A4F74BC00129381 /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD9AC0611A4F74BC00129381 /* ContentViewController.xib */; };
+		FDA94B991A69F9D000EB4169 /* CCNStatusItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA94B901A69F9D000EB4169 /* CCNStatusItem.m */; };
+		FDA94B9A1A69F9D000EB4169 /* CCNStatusItemWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA94B921A69F9D000EB4169 /* CCNStatusItemWindow.m */; };
+		FDA94B9C1A69F9D000EB4169 /* CCNStatusItemWindowBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA94B961A69F9D000EB4169 /* CCNStatusItemWindowBackgroundView.m */; };
+		FDA94B9D1A69F9D000EB4169 /* CCNStatusItemWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA94B981A69F9D000EB4169 /* CCNStatusItemWindowController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1782392A1AFBCEEB00D41AB3 /* CCNStatusItemDropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNStatusItemDropView.h; sourceTree = "<group>"; };
+		1782392B1AFBCEEB00D41AB3 /* CCNStatusItemDropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNStatusItemDropView.m; sourceTree = "<group>"; };
+		6800FB451AEB486700942B4E /* ContentView2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentView2Controller.h; sourceTree = "<group>"; };
+		6800FB461AEB486700942B4E /* ContentView2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentView2Controller.m; sourceTree = "<group>"; };
+		6800FB471AEB486700942B4E /* ContentView2Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentView2Controller.xib; sourceTree = "<group>"; };
+		FD2CF54A1AE2E60A006F3D46 /* CCNStatusItemWindowConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNStatusItemWindowConfiguration.h; sourceTree = "<group>"; };
+		FD2CF54B1AE2E60A006F3D46 /* CCNStatusItemWindowConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNStatusItemWindowConfiguration.m; sourceTree = "<group>"; };
+		FD9AC02C1A4F728600129381 /* CCNStatusItem Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CCNStatusItem Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD9AC0301A4F728600129381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD9AC0311A4F728600129381 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD9AC0321A4F728600129381 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD9AC0341A4F728600129381 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD9AC0361A4F728600129381 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD9AC0391A4F728600129381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FD9AC05F1A4F74BC00129381 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		FD9AC0601A4F74BC00129381 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		FD9AC0611A4F74BC00129381 /* ContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
+		FDA94B8F1A69F9D000EB4169 /* CCNStatusItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNStatusItem.h; sourceTree = "<group>"; };
+		FDA94B901A69F9D000EB4169 /* CCNStatusItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNStatusItem.m; sourceTree = "<group>"; };
+		FDA94B911A69F9D000EB4169 /* CCNStatusItemWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNStatusItemWindow.h; sourceTree = "<group>"; };
+		FDA94B921A69F9D000EB4169 /* CCNStatusItemWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNStatusItemWindow.m; sourceTree = "<group>"; };
+		FDA94B951A69F9D000EB4169 /* CCNStatusItemWindowBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNStatusItemWindowBackgroundView.h; sourceTree = "<group>"; };
+		FDA94B961A69F9D000EB4169 /* CCNStatusItemWindowBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNStatusItemWindowBackgroundView.m; sourceTree = "<group>"; };
+		FDA94B971A69F9D000EB4169 /* CCNStatusItemWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNStatusItemWindowController.h; sourceTree = "<group>"; };
+		FDA94B981A69F9D000EB4169 /* CCNStatusItemWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNStatusItemWindowController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD9AC0291A4F728600129381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD9AC0231A4F728600129381 = {
+			isa = PBXGroup;
+			children = (
+				FD9AC02E1A4F728600129381 /* CCNStatusItem Example */,
+				FD9AC02D1A4F728600129381 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD9AC02D1A4F728600129381 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD9AC02C1A4F728600129381 /* CCNStatusItem Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD9AC02E1A4F728600129381 /* CCNStatusItem Example */ = {
+			isa = PBXGroup;
+			children = (
+				FD9AC0311A4F728600129381 /* AppDelegate.h */,
+				FD9AC0321A4F728600129381 /* AppDelegate.m */,
+				FD9AC05F1A4F74BC00129381 /* ContentViewController.h */,
+				FD9AC0601A4F74BC00129381 /* ContentViewController.m */,
+				FD9AC0611A4F74BC00129381 /* ContentViewController.xib */,
+				6800FB451AEB486700942B4E /* ContentView2Controller.h */,
+				6800FB461AEB486700942B4E /* ContentView2Controller.m */,
+				6800FB471AEB486700942B4E /* ContentView2Controller.xib */,
+				FD9AC0381A4F728600129381 /* MainMenu.xib */,
+				FD9AC0361A4F728600129381 /* Images.xcassets */,
+				FDA94B8E1A69F9D000EB4169 /* CCNStatusItem */,
+				FD9AC02F1A4F728600129381 /* Supporting Files */,
+			);
+			path = "CCNStatusItem Example";
+			sourceTree = "<group>";
+		};
+		FD9AC02F1A4F728600129381 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD9AC0301A4F728600129381 /* Info.plist */,
+				FD9AC0341A4F728600129381 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDA94B8E1A69F9D000EB4169 /* CCNStatusItem */ = {
+			isa = PBXGroup;
+			children = (
+				FDA94B8F1A69F9D000EB4169 /* CCNStatusItem.h */,
+				FDA94B901A69F9D000EB4169 /* CCNStatusItem.m */,
+				1782392A1AFBCEEB00D41AB3 /* CCNStatusItemDropView.h */,
+				1782392B1AFBCEEB00D41AB3 /* CCNStatusItemDropView.m */,
+				FDA94B911A69F9D000EB4169 /* CCNStatusItemWindow.h */,
+				FDA94B921A69F9D000EB4169 /* CCNStatusItemWindow.m */,
+				FDA94B951A69F9D000EB4169 /* CCNStatusItemWindowBackgroundView.h */,
+				FDA94B961A69F9D000EB4169 /* CCNStatusItemWindowBackgroundView.m */,
+				FD2CF54A1AE2E60A006F3D46 /* CCNStatusItemWindowConfiguration.h */,
+				FD2CF54B1AE2E60A006F3D46 /* CCNStatusItemWindowConfiguration.m */,
+				FDA94B971A69F9D000EB4169 /* CCNStatusItemWindowController.h */,
+				FDA94B981A69F9D000EB4169 /* CCNStatusItemWindowController.m */,
+			);
+			name = CCNStatusItem;
+			path = ../../CCNStatusItem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD9AC02B1A4F728600129381 /* CCNStatusItem Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD9AC0491A4F728600129381 /* Build configuration list for PBXNativeTarget "CCNStatusItem Example" */;
+			buildPhases = (
+				FDA94B8D1A69D90100EB4169 /* Update Build Number */,
+				FD9AC0281A4F728600129381 /* Sources */,
+				FD9AC0291A4F728600129381 /* Frameworks */,
+				FD9AC02A1A4F728600129381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CCNStatusItem Example";
+			productName = "CCNStatusItemView Example";
+			productReference = FD9AC02C1A4F728600129381 /* CCNStatusItem Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD9AC0241A4F728600129381 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "cocoa:naut";
+				TargetAttributes = {
+					FD9AC02B1A4F728600129381 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = FD9AC0271A4F728600129381 /* Build configuration list for PBXProject "CCNStatusItem Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD9AC0231A4F728600129381;
+			productRefGroup = FD9AC02D1A4F728600129381 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD9AC02B1A4F728600129381 /* CCNStatusItem Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD9AC02A1A4F728600129381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9AC0371A4F728600129381 /* Images.xcassets in Resources */,
+				FD9AC03A1A4F728600129381 /* MainMenu.xib in Resources */,
+				FD9AC0631A4F74BC00129381 /* ContentViewController.xib in Resources */,
+				6800FB491AEB486700942B4E /* ContentView2Controller.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FDA94B8D1A69D90100EB4169 /* Update Build Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Update Build Number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"${EXECUTABLE_NAME}\"\nBASE_PATH=$(pwd)\nPLIST_PATH=\"${BASE_PATH}/Info.plist\"\nBUNDLE_VERSION=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PLIST_PATH}\")\nBUNDLE_VERSION=$[$BUNDLE_VERSION + 1]\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $BUNDLE_VERSION\" \"${PLIST_PATH}\"";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD9AC0281A4F728600129381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD2CF54C1AE2E60A006F3D46 /* CCNStatusItemWindowConfiguration.m in Sources */,
+				FDA94B9C1A69F9D000EB4169 /* CCNStatusItemWindowBackgroundView.m in Sources */,
+				FD9AC0351A4F728600129381 /* main.m in Sources */,
+				FDA94B9A1A69F9D000EB4169 /* CCNStatusItemWindow.m in Sources */,
+				FDA94B991A69F9D000EB4169 /* CCNStatusItem.m in Sources */,
+				FD9AC0331A4F728600129381 /* AppDelegate.m in Sources */,
+				6800FB481AEB486700942B4E /* ContentView2Controller.m in Sources */,
+				FDA94B9D1A69F9D000EB4169 /* CCNStatusItemWindowController.m in Sources */,
+				FD9AC0621A4F74BC00129381 /* ContentViewController.m in Sources */,
+				1782392C1AFBCEEB00D41AB3 /* CCNStatusItemDropView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD9AC0381A4F728600129381 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD9AC0391A4F728600129381 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD9AC0471A4F728600129381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FD9AC0481A4F728600129381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FD9AC04A1A4F728600129381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CCNStatusItem Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "CCNStatusItem Example";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FD9AC04B1A4F728600129381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CCNStatusItem Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "CCNStatusItem Example";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD9AC0271A4F728600129381 /* Build configuration list for PBXProject "CCNStatusItem Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD9AC0471A4F728600129381 /* Debug */,
+				FD9AC0481A4F728600129381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD9AC0491A4F728600129381 /* Build configuration list for PBXNativeTarget "CCNStatusItem Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD9AC04A1A4F728600129381 /* Debug */,
+				FD9AC04B1A4F728600129381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD9AC0241A4F728600129381 /* Project object */;
+}

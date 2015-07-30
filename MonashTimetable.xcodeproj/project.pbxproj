@@ -9,10 +9,42 @@
 /* Begin PBXBuildFile section */
 		0302353F1AFB543400F91D59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0302353E1AFB543400F91D59 /* AppDelegate.m */; };
 		030235411AFB543400F91D59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 030235401AFB543400F91D59 /* main.m */; };
-		030235441AFB543400F91D59 /* MonashTimetable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 030235421AFB543400F91D59 /* MonashTimetable.xcdatamodeld */; };
 		030235461AFB543400F91D59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030235451AFB543400F91D59 /* Images.xcassets */; };
 		030235491AFB543400F91D59 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 030235471AFB543400F91D59 /* MainMenu.xib */; };
 		030235551AFB543400F91D59 /* MonashTimetableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 030235541AFB543400F91D59 /* MonashTimetableTests.m */; };
+		030235611AFC346000F91D59 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0302355F1AFC346000F91D59 /* LoginViewController.m */; };
+		030235621AFC346000F91D59 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 030235601AFC346000F91D59 /* LoginViewController.xib */; };
+		0302356B1AFC3F0100F91D59 /* TimetableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 030235691AFC3F0100F91D59 /* TimetableViewController.m */; };
+		0302356C1AFC3F0100F91D59 /* TimetableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0302356A1AFC3F0100F91D59 /* TimetableViewController.xib */; };
+		0302356F1AFC7B1B00F91D59 /* CredentialsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0302356E1AFC7B1B00F91D59 /* CredentialsManager.m */; };
+		030235721AFCB79C00F91D59 /* TimetableManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 030235711AFCB79C00F91D59 /* TimetableManager.m */; };
+		0321A9771B67B1290005D7D0 /* ScheduleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0321A9761B67B1290005D7D0 /* ScheduleKit.framework */; };
+		0321A9781B67B1350005D7D0 /* ScheduleKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0321A9761B67B1290005D7D0 /* ScheduleKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0321A9861B68BEE10005D7D0 /* CCNStatusItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0321A97B1B68BEE10005D7D0 /* CCNStatusItem.m */; };
+		0321A9871B68BEE10005D7D0 /* CCNStatusItemDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0321A97D1B68BEE10005D7D0 /* CCNStatusItemDropView.m */; };
+		0321A9881B68BEE10005D7D0 /* CCNStatusItemWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0321A97F1B68BEE10005D7D0 /* CCNStatusItemWindow.m */; };
+		0321A9891B68BEE10005D7D0 /* CCNStatusItemWindowBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0321A9811B68BEE10005D7D0 /* CCNStatusItemWindowBackgroundView.m */; };
+		0321A98A1B68BEE10005D7D0 /* CCNStatusItemWindowConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 0321A9831B68BEE10005D7D0 /* CCNStatusItemWindowConfiguration.m */; };
+		0321A98B1B68BEE10005D7D0 /* CCNStatusItemWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0321A9851B68BEE10005D7D0 /* CCNStatusItemWindowController.m */; };
+		0321A9991B69B7A80005D7D0 /* MXLCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0321A9901B69B7A80005D7D0 /* MXLCalendar.m */; };
+		0321A99A1B69B7A80005D7D0 /* MXLCalendarAttendee.m in Sources */ = {isa = PBXBuildFile; fileRef = 0321A9921B69B7A80005D7D0 /* MXLCalendarAttendee.m */; };
+		0321A99B1B69B7A80005D7D0 /* MXLCalendarEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0321A9941B69B7A80005D7D0 /* MXLCalendarEvent.m */; };
+		0321A99C1B69B7A80005D7D0 /* MXLCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0321A9961B69B7A80005D7D0 /* MXLCalendarManager.m */; };
+		0321A99D1B69B7A80005D7D0 /* NSTimeZone+ProperAbbreviation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0321A9981B69B7A80005D7D0 /* NSTimeZone+ProperAbbreviation.m */; };
+		0321A99F1B69BA350005D7D0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0321A99E1B69BA350005D7D0 /* Credits.rtf */; };
+		032D41E01B61E65A0081C55E /* NSDate+DateBetween.m in Sources */ = {isa = PBXBuildFile; fileRef = 032D41DF1B61E65A0081C55E /* NSDate+DateBetween.m */; };
+		032D41E31B6498EF0081C55E /* NSFileManager+ApplicationSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 032D41E21B6498EF0081C55E /* NSFileManager+ApplicationSupport.m */; };
+		032D41E71B64CB380081C55E /* ClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032D41E51B64CB380081C55E /* ClassViewController.m */; };
+		032D41E81B64CB380081C55E /* ClassViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032D41E61B64CB380081C55E /* ClassViewController.xib */; };
+		032D421B1B670D520081C55E /* UnitColorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 032D421A1B670D520081C55E /* UnitColorManager.m */; };
+		032D421E1B670E5D0081C55E /* NSColor+DefaultColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 032D421D1B670E5D0081C55E /* NSColor+DefaultColor.m */; };
+		032D42261B673EF40081C55E /* LaunchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 032D42251B673EF40081C55E /* LaunchManager.m */; };
+		032D422E1B67507B0081C55E /* JPLaunchAtLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 032D422D1B67507B0081C55E /* JPLaunchAtLoginManager.m */; };
+		033015B41B677549002EB39C /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033015B31B677549002EB39C /* Sparkle.framework */; };
+		033015B61B67758F002EB39C /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 033015B31B677549002EB39C /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		037D242F1AFDE2EA00123964 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 037D242C1AFDE2EA00123964 /* SSKeychain.m */; };
+		037D24301AFDE2EA00123964 /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 037D242E1AFDE2EA00123964 /* SSKeychainQuery.m */; };
+		038596531B400A5700927C82 /* UniversityClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 038596521B400A5700927C82 /* UniversityClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,18 +57,89 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		033015B51B677582002EB39C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				033015B61B67758F002EB39C /* Sparkle.framework in CopyFiles */,
+				0321A9781B67B1350005D7D0 /* ScheduleKit.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		030235381AFB543400F91D59 /* MonashTimetable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonashTimetable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0302353C1AFB543400F91D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0302353D1AFB543400F91D59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0302353E1AFB543400F91D59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		030235401AFB543400F91D59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		030235431AFB543400F91D59 /* MonashTimetable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MonashTimetable.xcdatamodel; sourceTree = "<group>"; };
 		030235451AFB543400F91D59 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		030235481AFB543400F91D59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		0302354E1AFB543400F91D59 /* MonashTimetableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonashTimetableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		030235531AFB543400F91D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		030235541AFB543400F91D59 /* MonashTimetableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonashTimetableTests.m; sourceTree = "<group>"; };
+		0302355E1AFC346000F91D59 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0302355F1AFC346000F91D59 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		030235601AFC346000F91D59 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		030235681AFC3F0100F91D59 /* TimetableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimetableViewController.h; sourceTree = "<group>"; };
+		030235691AFC3F0100F91D59 /* TimetableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimetableViewController.m; sourceTree = "<group>"; };
+		0302356A1AFC3F0100F91D59 /* TimetableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimetableViewController.xib; sourceTree = "<group>"; };
+		0302356D1AFC7B1B00F91D59 /* CredentialsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CredentialsManager.h; sourceTree = "<group>"; };
+		0302356E1AFC7B1B00F91D59 /* CredentialsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CredentialsManager.m; sourceTree = "<group>"; };
+		030235701AFCB79B00F91D59 /* TimetableManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimetableManager.h; sourceTree = "<group>"; };
+		030235711AFCB79C00F91D59 /* TimetableManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimetableManager.m; sourceTree = "<group>"; };
+		0321A9761B67B1290005D7D0 /* ScheduleKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ScheduleKit.framework; sourceTree = "<group>"; };
+		0321A97A1B68BEE10005D7D0 /* CCNStatusItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCNStatusItem.h; path = CCNStatusItem/CCNStatusItem/CCNStatusItem.h; sourceTree = "<group>"; };
+		0321A97B1B68BEE10005D7D0 /* CCNStatusItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCNStatusItem.m; path = CCNStatusItem/CCNStatusItem/CCNStatusItem.m; sourceTree = "<group>"; };
+		0321A97C1B68BEE10005D7D0 /* CCNStatusItemDropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCNStatusItemDropView.h; path = CCNStatusItem/CCNStatusItem/CCNStatusItemDropView.h; sourceTree = "<group>"; };
+		0321A97D1B68BEE10005D7D0 /* CCNStatusItemDropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCNStatusItemDropView.m; path = CCNStatusItem/CCNStatusItem/CCNStatusItemDropView.m; sourceTree = "<group>"; };
+		0321A97E1B68BEE10005D7D0 /* CCNStatusItemWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCNStatusItemWindow.h; path = CCNStatusItem/CCNStatusItem/CCNStatusItemWindow.h; sourceTree = "<group>"; };
+		0321A97F1B68BEE10005D7D0 /* CCNStatusItemWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCNStatusItemWindow.m; path = CCNStatusItem/CCNStatusItem/CCNStatusItemWindow.m; sourceTree = "<group>"; };
+		0321A9801B68BEE10005D7D0 /* CCNStatusItemWindowBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCNStatusItemWindowBackgroundView.h; path = CCNStatusItem/CCNStatusItem/CCNStatusItemWindowBackgroundView.h; sourceTree = "<group>"; };
+		0321A9811B68BEE10005D7D0 /* CCNStatusItemWindowBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCNStatusItemWindowBackgroundView.m; path = CCNStatusItem/CCNStatusItem/CCNStatusItemWindowBackgroundView.m; sourceTree = "<group>"; };
+		0321A9821B68BEE10005D7D0 /* CCNStatusItemWindowConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCNStatusItemWindowConfiguration.h; path = CCNStatusItem/CCNStatusItem/CCNStatusItemWindowConfiguration.h; sourceTree = "<group>"; };
+		0321A9831B68BEE10005D7D0 /* CCNStatusItemWindowConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCNStatusItemWindowConfiguration.m; path = CCNStatusItem/CCNStatusItem/CCNStatusItemWindowConfiguration.m; sourceTree = "<group>"; };
+		0321A9841B68BEE10005D7D0 /* CCNStatusItemWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCNStatusItemWindowController.h; path = CCNStatusItem/CCNStatusItem/CCNStatusItemWindowController.h; sourceTree = "<group>"; };
+		0321A9851B68BEE10005D7D0 /* CCNStatusItemWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCNStatusItemWindowController.m; path = CCNStatusItem/CCNStatusItem/CCNStatusItemWindowController.m; sourceTree = "<group>"; };
+		0321A98F1B69B7A80005D7D0 /* MXLCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MXLCalendar.h; path = MXLCalendarManager/MXLCalendarManager/MXLCalendar.h; sourceTree = "<group>"; };
+		0321A9901B69B7A80005D7D0 /* MXLCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MXLCalendar.m; path = MXLCalendarManager/MXLCalendarManager/MXLCalendar.m; sourceTree = "<group>"; };
+		0321A9911B69B7A80005D7D0 /* MXLCalendarAttendee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MXLCalendarAttendee.h; path = MXLCalendarManager/MXLCalendarManager/MXLCalendarAttendee.h; sourceTree = "<group>"; };
+		0321A9921B69B7A80005D7D0 /* MXLCalendarAttendee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MXLCalendarAttendee.m; path = MXLCalendarManager/MXLCalendarManager/MXLCalendarAttendee.m; sourceTree = "<group>"; };
+		0321A9931B69B7A80005D7D0 /* MXLCalendarEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MXLCalendarEvent.h; path = MXLCalendarManager/MXLCalendarManager/MXLCalendarEvent.h; sourceTree = "<group>"; };
+		0321A9941B69B7A80005D7D0 /* MXLCalendarEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MXLCalendarEvent.m; path = MXLCalendarManager/MXLCalendarManager/MXLCalendarEvent.m; sourceTree = "<group>"; };
+		0321A9951B69B7A80005D7D0 /* MXLCalendarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MXLCalendarManager.h; path = MXLCalendarManager/MXLCalendarManager/MXLCalendarManager.h; sourceTree = "<group>"; };
+		0321A9961B69B7A80005D7D0 /* MXLCalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MXLCalendarManager.m; path = MXLCalendarManager/MXLCalendarManager/MXLCalendarManager.m; sourceTree = "<group>"; };
+		0321A9971B69B7A80005D7D0 /* NSTimeZone+ProperAbbreviation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSTimeZone+ProperAbbreviation.h"; path = "MXLCalendarManager/MXLCalendarManager/NSTimeZone+ProperAbbreviation.h"; sourceTree = "<group>"; };
+		0321A9981B69B7A80005D7D0 /* NSTimeZone+ProperAbbreviation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSTimeZone+ProperAbbreviation.m"; path = "MXLCalendarManager/MXLCalendarManager/NSTimeZone+ProperAbbreviation.m"; sourceTree = "<group>"; };
+		0321A99E1B69BA350005D7D0 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		032D41DE1B61E65A0081C55E /* NSDate+DateBetween.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DateBetween.h"; sourceTree = "<group>"; };
+		032D41DF1B61E65A0081C55E /* NSDate+DateBetween.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DateBetween.m"; sourceTree = "<group>"; };
+		032D41E11B6498EF0081C55E /* NSFileManager+ApplicationSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+ApplicationSupport.h"; sourceTree = "<group>"; };
+		032D41E21B6498EF0081C55E /* NSFileManager+ApplicationSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+ApplicationSupport.m"; sourceTree = "<group>"; };
+		032D41E41B64CB380081C55E /* ClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassViewController.h; sourceTree = "<group>"; };
+		032D41E51B64CB380081C55E /* ClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassViewController.m; sourceTree = "<group>"; };
+		032D41E61B64CB380081C55E /* ClassViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassViewController.xib; sourceTree = "<group>"; };
+		032D41F11B65B8810081C55E /* NSGeometry+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSGeometry+Additions.h"; sourceTree = "<group>"; };
+		032D42191B670D510081C55E /* UnitColorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitColorManager.h; sourceTree = "<group>"; };
+		032D421A1B670D520081C55E /* UnitColorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitColorManager.m; sourceTree = "<group>"; };
+		032D421C1B670E5D0081C55E /* NSColor+DefaultColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+DefaultColor.h"; sourceTree = "<group>"; };
+		032D421D1B670E5D0081C55E /* NSColor+DefaultColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+DefaultColor.m"; sourceTree = "<group>"; };
+		032D42241B673EF40081C55E /* LaunchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchManager.h; sourceTree = "<group>"; };
+		032D42251B673EF40081C55E /* LaunchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchManager.m; sourceTree = "<group>"; };
+		032D422C1B67507B0081C55E /* JPLaunchAtLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPLaunchAtLoginManager.h; sourceTree = "<group>"; };
+		032D422D1B67507B0081C55E /* JPLaunchAtLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPLaunchAtLoginManager.m; sourceTree = "<group>"; };
+		033015B31B677549002EB39C /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		0368A22F1B69C90700A33924 /* NSEvent+KeyCodes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSEvent+KeyCodes.h"; sourceTree = "<group>"; };
+		037D242B1AFDE2EA00123964 /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSKeychain.h; path = SSKeychain/SSKeychain/SSKeychain.h; sourceTree = "<group>"; };
+		037D242C1AFDE2EA00123964 /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSKeychain.m; path = SSKeychain/SSKeychain/SSKeychain.m; sourceTree = "<group>"; };
+		037D242D1AFDE2EA00123964 /* SSKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSKeychainQuery.h; path = SSKeychain/SSKeychain/SSKeychainQuery.h; sourceTree = "<group>"; };
+		037D242E1AFDE2EA00123964 /* SSKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSKeychainQuery.m; path = SSKeychain/SSKeychain/SSKeychainQuery.m; sourceTree = "<group>"; };
+		038596511B400A5700927C82 /* UniversityClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniversityClass.h; sourceTree = "<group>"; };
+		038596521B400A5700927C82 /* UniversityClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniversityClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +147,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0321A9771B67B1290005D7D0 /* ScheduleKit.framework in Frameworks */,
+				033015B41B677549002EB39C /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,9 +185,24 @@
 			children = (
 				0302353D1AFB543400F91D59 /* AppDelegate.h */,
 				0302353E1AFB543400F91D59 /* AppDelegate.m */,
+				0321A98E1B68BF2C0005D7D0 /* View Controllers */,
+				0302356D1AFC7B1B00F91D59 /* CredentialsManager.h */,
+				0302356E1AFC7B1B00F91D59 /* CredentialsManager.m */,
+				030235701AFCB79B00F91D59 /* TimetableManager.h */,
+				030235711AFCB79C00F91D59 /* TimetableManager.m */,
+				032D42191B670D510081C55E /* UnitColorManager.h */,
+				032D421A1B670D520081C55E /* UnitColorManager.m */,
+				038596511B400A5700927C82 /* UniversityClass.h */,
+				038596521B400A5700927C82 /* UniversityClass.m */,
+				032D42241B673EF40081C55E /* LaunchManager.h */,
+				032D42251B673EF40081C55E /* LaunchManager.m */,
+				032D422C1B67507B0081C55E /* JPLaunchAtLoginManager.h */,
+				032D422D1B67507B0081C55E /* JPLaunchAtLoginManager.m */,
+				0321A98D1B68BF160005D7D0 /* Vendor */,
+				0321A98C1B68BEEF0005D7D0 /* Frameworks */,
+				032D421F1B673B4B0081C55E /* Categories */,
 				030235451AFB543400F91D59 /* Images.xcassets */,
 				030235471AFB543400F91D59 /* MainMenu.xib */,
-				030235421AFB543400F91D59 /* MonashTimetable.xcdatamodeld */,
 				0302353B1AFB543400F91D59 /* Supporting Files */,
 			);
 			path = MonashTimetable;
@@ -92,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				0302353C1AFB543400F91D59 /* Info.plist */,
+				0321A99E1B69BA350005D7D0 /* Credits.rtf */,
 				030235401AFB543400F91D59 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -114,6 +235,103 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0321A9791B68BED40005D7D0 /* CCNStatusItem */ = {
+			isa = PBXGroup;
+			children = (
+				0321A97A1B68BEE10005D7D0 /* CCNStatusItem.h */,
+				0321A97B1B68BEE10005D7D0 /* CCNStatusItem.m */,
+				0321A97C1B68BEE10005D7D0 /* CCNStatusItemDropView.h */,
+				0321A97D1B68BEE10005D7D0 /* CCNStatusItemDropView.m */,
+				0321A97E1B68BEE10005D7D0 /* CCNStatusItemWindow.h */,
+				0321A97F1B68BEE10005D7D0 /* CCNStatusItemWindow.m */,
+				0321A9801B68BEE10005D7D0 /* CCNStatusItemWindowBackgroundView.h */,
+				0321A9811B68BEE10005D7D0 /* CCNStatusItemWindowBackgroundView.m */,
+				0321A9821B68BEE10005D7D0 /* CCNStatusItemWindowConfiguration.h */,
+				0321A9831B68BEE10005D7D0 /* CCNStatusItemWindowConfiguration.m */,
+				0321A9841B68BEE10005D7D0 /* CCNStatusItemWindowController.h */,
+				0321A9851B68BEE10005D7D0 /* CCNStatusItemWindowController.m */,
+			);
+			name = CCNStatusItem;
+			sourceTree = "<group>";
+		};
+		0321A98C1B68BEEF0005D7D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0321A9761B67B1290005D7D0 /* ScheduleKit.framework */,
+				033015B31B677549002EB39C /* Sparkle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0321A98D1B68BF160005D7D0 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				0321A9791B68BED40005D7D0 /* CCNStatusItem */,
+				038596541B40B9AF00927C82 /* MXLCalendarManager */,
+				037D24311AFDE2EE00123964 /* SSKeychain */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		0321A98E1B68BF2C0005D7D0 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0302355E1AFC346000F91D59 /* LoginViewController.h */,
+				0302355F1AFC346000F91D59 /* LoginViewController.m */,
+				030235601AFC346000F91D59 /* LoginViewController.xib */,
+				030235681AFC3F0100F91D59 /* TimetableViewController.h */,
+				030235691AFC3F0100F91D59 /* TimetableViewController.m */,
+				0302356A1AFC3F0100F91D59 /* TimetableViewController.xib */,
+				032D41E41B64CB380081C55E /* ClassViewController.h */,
+				032D41E51B64CB380081C55E /* ClassViewController.m */,
+				032D41E61B64CB380081C55E /* ClassViewController.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		032D421F1B673B4B0081C55E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				032D41DE1B61E65A0081C55E /* NSDate+DateBetween.h */,
+				032D41DF1B61E65A0081C55E /* NSDate+DateBetween.m */,
+				032D41E11B6498EF0081C55E /* NSFileManager+ApplicationSupport.h */,
+				032D41E21B6498EF0081C55E /* NSFileManager+ApplicationSupport.m */,
+				032D421C1B670E5D0081C55E /* NSColor+DefaultColor.h */,
+				032D421D1B670E5D0081C55E /* NSColor+DefaultColor.m */,
+				032D41F11B65B8810081C55E /* NSGeometry+Additions.h */,
+				0368A22F1B69C90700A33924 /* NSEvent+KeyCodes.h */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		037D24311AFDE2EE00123964 /* SSKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				037D242B1AFDE2EA00123964 /* SSKeychain.h */,
+				037D242C1AFDE2EA00123964 /* SSKeychain.m */,
+				037D242D1AFDE2EA00123964 /* SSKeychainQuery.h */,
+				037D242E1AFDE2EA00123964 /* SSKeychainQuery.m */,
+			);
+			name = SSKeychain;
+			sourceTree = "<group>";
+		};
+		038596541B40B9AF00927C82 /* MXLCalendarManager */ = {
+			isa = PBXGroup;
+			children = (
+				0321A98F1B69B7A80005D7D0 /* MXLCalendar.h */,
+				0321A9901B69B7A80005D7D0 /* MXLCalendar.m */,
+				0321A9911B69B7A80005D7D0 /* MXLCalendarAttendee.h */,
+				0321A9921B69B7A80005D7D0 /* MXLCalendarAttendee.m */,
+				0321A9931B69B7A80005D7D0 /* MXLCalendarEvent.h */,
+				0321A9941B69B7A80005D7D0 /* MXLCalendarEvent.m */,
+				0321A9951B69B7A80005D7D0 /* MXLCalendarManager.h */,
+				0321A9961B69B7A80005D7D0 /* MXLCalendarManager.m */,
+				0321A9971B69B7A80005D7D0 /* NSTimeZone+ProperAbbreviation.h */,
+				0321A9981B69B7A80005D7D0 /* NSTimeZone+ProperAbbreviation.m */,
+			);
+			name = MXLCalendarManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,8 +340,9 @@
 			buildConfigurationList = 030235581AFB543400F91D59 /* Build configuration list for PBXNativeTarget "MonashTimetable" */;
 			buildPhases = (
 				030235341AFB543400F91D59 /* Sources */,
-				030235351AFB543400F91D59 /* Frameworks */,
 				030235361AFB543400F91D59 /* Resources */,
+				033015B51B677582002EB39C /* CopyFiles */,
+				030235351AFB543400F91D59 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,6 +382,12 @@
 				TargetAttributes = {
 					030235371AFB543400F91D59 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 3C7269R37R;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 					0302354D1AFB543400F91D59 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -195,7 +420,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				030235461AFB543400F91D59 /* Images.xcassets in Resources */,
+				0321A99F1B69BA350005D7D0 /* Credits.rtf in Resources */,
 				030235491AFB543400F91D59 /* MainMenu.xib in Resources */,
+				0302356C1AFC3F0100F91D59 /* TimetableViewController.xib in Resources */,
+				032D41E81B64CB380081C55E /* ClassViewController.xib in Resources */,
+				030235621AFC346000F91D59 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,9 +442,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				038596531B400A5700927C82 /* UniversityClass.m in Sources */,
+				0321A9991B69B7A80005D7D0 /* MXLCalendar.m in Sources */,
+				032D421B1B670D520081C55E /* UnitColorManager.m in Sources */,
+				0321A9861B68BEE10005D7D0 /* CCNStatusItem.m in Sources */,
+				0321A99B1B69B7A80005D7D0 /* MXLCalendarEvent.m in Sources */,
+				0302356F1AFC7B1B00F91D59 /* CredentialsManager.m in Sources */,
+				0321A99A1B69B7A80005D7D0 /* MXLCalendarAttendee.m in Sources */,
+				0321A9871B68BEE10005D7D0 /* CCNStatusItemDropView.m in Sources */,
+				0321A99D1B69B7A80005D7D0 /* NSTimeZone+ProperAbbreviation.m in Sources */,
+				032D421E1B670E5D0081C55E /* NSColor+DefaultColor.m in Sources */,
+				032D42261B673EF40081C55E /* LaunchManager.m in Sources */,
+				032D41E01B61E65A0081C55E /* NSDate+DateBetween.m in Sources */,
+				030235611AFC346000F91D59 /* LoginViewController.m in Sources */,
+				0321A9891B68BEE10005D7D0 /* CCNStatusItemWindowBackgroundView.m in Sources */,
+				032D41E71B64CB380081C55E /* ClassViewController.m in Sources */,
+				032D422E1B67507B0081C55E /* JPLaunchAtLoginManager.m in Sources */,
+				032D41E31B6498EF0081C55E /* NSFileManager+ApplicationSupport.m in Sources */,
 				030235411AFB543400F91D59 /* main.m in Sources */,
-				030235441AFB543400F91D59 /* MonashTimetable.xcdatamodeld in Sources */,
+				0321A98A1B68BEE10005D7D0 /* CCNStatusItemWindowConfiguration.m in Sources */,
+				0321A98B1B68BEE10005D7D0 /* CCNStatusItemWindowController.m in Sources */,
+				0302356B1AFC3F0100F91D59 /* TimetableViewController.m in Sources */,
+				037D242F1AFDE2EA00123964 /* SSKeychain.m in Sources */,
+				037D24301AFDE2EA00123964 /* SSKeychainQuery.m in Sources */,
 				0302353F1AFB543400F91D59 /* AppDelegate.m in Sources */,
+				0321A99C1B69B7A80005D7D0 /* MXLCalendarManager.m in Sources */,
+				030235721AFCB79C00F91D59 /* TimetableManager.m in Sources */,
+				0321A9881B68BEE10005D7D0 /* CCNStatusItemWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,10 +585,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MonashTimetable",
+				);
 				INFOPLIST_FILE = MonashTimetable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -343,10 +602,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MonashTimetable",
+				);
 				INFOPLIST_FILE = MonashTimetable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -405,6 +670,7 @@
 				0302355A1AFB543400F91D59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0302355B1AFB543400F91D59 /* Build configuration list for PBXNativeTarget "MonashTimetableTests" */ = {
 			isa = XCConfigurationList;
@@ -413,21 +679,9 @@
 				0302355D1AFB543400F91D59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		030235421AFB543400F91D59 /* MonashTimetable.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				030235431AFB543400F91D59 /* MonashTimetable.xcdatamodel */,
-			);
-			currentVersion = 030235431AFB543400F91D59 /* MonashTimetable.xcdatamodel */;
-			path = MonashTimetable.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 030235301AFB543400F91D59 /* Project object */;
 }

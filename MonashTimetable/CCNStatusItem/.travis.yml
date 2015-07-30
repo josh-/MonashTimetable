@@ -1,0 +1,3 @@
+language: objective-c
+xcode_project: 'CCNStatusItem Example/CCNStatusItem Example.xcodeproj'
+xcode_scheme: 'CCNStatusItem Example'
